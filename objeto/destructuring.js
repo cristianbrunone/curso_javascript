@@ -8,3 +8,16 @@ console.log(apellido);
 let { name, ...sobrantes } = user;
 
 console.log(sobrantes);
+
+let calificaciones = [10, 9, 8];
+
+let calificacioness = [10, 9, 8];
+
+let [matematicas, programacion, ciencias] = calificaciones;
+
+let [matematicass, ...otrasCalificaciones] = calificacioness;
+
+console.log(otrasCalificaciones);
+
+console.log(matematicas);
+
